@@ -69,12 +69,13 @@ main {
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.177); 
+    margin-top: 30px;
 }
 
 h1 {
     font-size: x-large;
     text-align: center;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 h2 {
     color: #004d40;
