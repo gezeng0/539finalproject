@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/javascript.js"></script>
+</head>
+<body>
+    <div class="skip"><a href = "#main-content">Skip to Main Content</a></div>
+	<header>
+		<nav>
+			<ul>
+				<li class="active"><a class = "current" href = "index.html" >Home</a></li>
+				<li><a href="portugal.html">Portugal</a></li>
+                <li><a href="netherlands.html">Netherlands</a></li>
+                <li><a href="norway.html">Norway</a></li>
+                <li><a href="germany.html">Germany</a></li>
+			</ul>
+		</nav>
+	</header>
+    <h1>My Trips to Europe</h1>
+    <main id="main-content">
+        <div id="intro">
+            <h2>Why I Love Traveling</h2>
+            <p>I love travelling because I always learn so much from these adventures. There's something incredibly special about exploring different corners of the world. Nature plays a starring role in this global exploration, and I find myself captivated by the diverse landscapes in different countries. Whether it's the sun-drenched beaches of Portugal or the lush greenery of Norway, every place has its unique charm that leaves an unforgettable memory in my heart.</p>
+        </div>
+
+        <div id="history">
+            <h2>About Europe</h2>
+            <p>Europe is a continent comprising the westernmost peninsulas of Eurasia, located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere. It shares the continental landmass of Afro-Eurasia with both Africa and Asia. It is bordered by the Arctic Ocean to the north, the Atlantic Ocean to the west, the Mediterranean Sea to the south, and Asia to the east. 
+            </p> 
+            <p>Europe covers about 10.18 million km2 (3.93 million sq mi), or 2% of Earth's surface (6.8% of land area), making it the second-smallest continent. Europe had a total population of about 745 million (about 10% of the world population); the third-largest after Asia and Africa.
+            </p>
+        </div>
+        <div id="countries-container">
+            <div class="countries-header">
+                <h2>Explore the Countries</h2>
+                <div class="sort-container">
+                    <button id="sort-button">Sort by Visited Time</button>
+                    <div class="dropdown-content" id="sort-dropdown">
+                        <button id="sort-earliest">Earliest to Latest</button>
+                        <button id="sort-latest">Latest to Earliest</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="countries">
+                <div class="country" data-visit-year="2022">
+                    <img src="images/portugal_image.jpg" alt="Portugal">
+                    <a href="portugal.html"><button>Portugal</button></a>
+                </div>
+                <div class="country" data-visit-year="2013">
+                    <img src="images/netherlands_image.jpg" alt="Netherlands">
+                    <a href="netherlands.html"><button>Netherlands</button></a>
+                </div>
+                <div class="country" data-visit-year="2012">
+                    <img src="images/norway_image.jpg" alt="Norway">
+                    <a href="norway.html"><button>Norway</button></a>
+                </div>
+                <div class="country" data-visit-year="2015">
+                    <img src="images/germany_image.jpg" alt="Germany">
+                    <a href="germany.html"><button>Germany</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
