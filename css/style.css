@@ -119,6 +119,8 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: block;
+    margin: 10px auto; 
 }
 
 button:hover {
